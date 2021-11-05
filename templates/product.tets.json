@@ -1,0 +1,11 @@
+{
+    "name": "Test Templat",
+    "section": {
+        "main": {
+            "type": "main-product"
+        }
+    },
+    "oreder": [
+        "main"
+    ]
+}
