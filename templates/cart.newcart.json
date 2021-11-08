@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "footer",
+      "type": "header",
       "settings": {
       }
     },
