@@ -2,12 +2,27 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "blocks": {
+        "f84a752e-ab33-48d7-aa75-ed3d6bc8f7b7": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "f84a752e-ab33-48d7-aa75-ed3d6bc8f7b7"
+      ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "newsletter": {
       "type": "contact-form",
       "settings": {
+        "heading": "Contact form"
       }
     }
   },
