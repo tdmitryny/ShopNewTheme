@@ -259,7 +259,11 @@
 
 <h3>{{section.settings.heading}}</h3>
 
-<p>{{product.featured_media.section.settings.images | img_url}}</p>
+{%for block in section.blocks%}
+
+<img src={{block.settings.image | img_url: "master"}}
+
+{%endfor%}
 
 {% schema %}
 {
