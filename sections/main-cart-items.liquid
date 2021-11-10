@@ -261,10 +261,12 @@
 
 
 
-
+{%if section.blocks.settings.image == "blank"%}
 
 
 <img src="{{section.blocks.settings.image | img_url: '500x500'}}"/>
+
+{%endif%}
 
 
      
